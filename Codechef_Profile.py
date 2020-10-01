@@ -3,8 +3,8 @@ from urllib.request import Request, urlopen
 import requests
 from bs4 import BeautifulSoup
 
-user=input("Enter the username: ")
-quote_page='https://www.codechef.com/users/%s'%(user)
+user = input("Enter the username: ")
+quote_page = 'https://www.codechef.com/users/%s'%(user)
 #print(quote_page)
 
 
